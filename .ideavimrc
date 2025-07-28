@@ -1,0 +1,45 @@
+""" Map leader to space ---------------------
+let mapleader=" "
+
+""" Common settings -------------------------
+set showmode
+set so=5
+set incsearch
+set nu
+
+""" Idea specific settings ------------------
+set ideajoin
+set ideamarks
+set ideastatusicon=gray
+set idearefactormode=keep
+
+""" Mappings --------------------------------
+
+map <leader>d <Action>(Debug)
+map <leader>r <Action>(Run)
+map <leader>ra <Action>(RenameElement)
+map <leader>c <Action>(Stop)
+map <leader>z <Action>(ToggleDistractionFreeMode)
+
+map <leader>n <Action>(SelectInProjectView)
+map <leader>a <Action>(Annotate)
+map <leader>h <Action>(Vcs.ShowTabbedFileHistory)
+map <S-Space> <Action>(GotoNextError)
+map <leader>ff <Action>(GotoClass)
+map <leader>fa <Action>(SearchEverywhere)
+map <leader>fm <Action>(ReformatCode)
+map <leader>fw <Action>(FindInPath)
+map <leader>fr <Action>(FindUsages)
+map <leader>e <Action>(RecentFiles)
+map <leader>q <Action>(ShowContextActions)
+
+map <leader>b <Action>(ToggleLineBreakpoint)
+map <leader>o <Action>(FileStructurePopup)
+
+map<leader>rr <Action>(IdeaVim.ReloadVimRc.reload)
+
+""" Git
+
+map <leader>gb <Action>(Git.Branches)
+map <leader>gk <Action>(CheckinProject)
+map <leader>gp <Action>(Vcs.Push)
