@@ -33,6 +33,8 @@ map <leader>fr <Action>(FindUsages)
 map <leader>e <Action>(RecentFiles)
 map <leader>q <Action>(ShowContextActions)
 
+map gi <Action>(GotoImplementation)
+
 map <leader>b <Action>(ToggleLineBreakpoint)
 map <leader>o <Action>(FileStructurePopup)
 
