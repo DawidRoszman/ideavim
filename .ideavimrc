@@ -46,5 +46,9 @@ map <leader>gb <Action>(Git.Branches)
 map <leader>gk <Action>(CheckinProject)
 map <leader>gp <Action>(Vcs.Push)
 
+""" Tests
+
+map <leader>tn <Action>(RunClass)
+
 map <leader>gz <Action>(Vcs.RollbackChangedLines)
 map <leader>gd <Action>(Compare.SameVersion)
